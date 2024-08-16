@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.license    = { :type => "MIT" }
   spec.homepage   = "https://bitkubchain.com"
   spec.authors    = "Bitkub Blockchain Technology"
-  spec.source     = { :http => "https://raw.githubusercontent.com/visutrb/cocoapod-test/main/Artifacts/BitkubChainSDK/#{spec.version}/BitkubChainSDKKit.xcframework.zip" }
+  spec.source     = { :http => "https://raw.githubusercontent.com/isman-usoh/bitkubchain-spece/main/Artifacts/BitkubChainSDK/#{spec.version}/BitkubChainSDKKit.xcframework.zip" }
   spec.vendored_frameworks = "BitkubChainSDKKit.xcframework"
   spec.ios.deployment_target = "13.0"
 end

@@ -5,7 +5,7 @@ Pod::Spec.new do |spec|
   spec.license    = { :type => "MIT" }
   spec.homepage   = "https://bitkubchain.com"
   spec.authors    = "Bitkub Blockchain Technology"
-  spec.source     = { :git => "https://github.com/bitkub-chain/bitkubchain-sdk-ios.git", :tag => spec.version }
+  spec.source     = { :git => "https://github.com/kub-chain/bitkubchain-sdk-ios.git", :tag => spec.version }
   spec.vendored_frameworks = "BitkubChainSDKKit.xcframework"
   spec.ios.deployment_target = "13.0"
 end
